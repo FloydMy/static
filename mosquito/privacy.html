@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>灭蚊模拟器-隐私政策</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 32px 24px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #1a1a1a;
+            margin-bottom: 6px;
+        }
+        .update-date {
+            text-align: center;
+            font-size: 13px;
+            color: #999;
+            margin-bottom: 28px;
+        }
+        h2 {
+            font-size: 17px;
+            color: #1a1a1a;
+            margin-top: 24px;
+            margin-bottom: 10px;
+            border-left: 4px solid #65b494;
+            padding-left: 10px;
+        }
+        p {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        ul {
+            margin: 8px 0 12px 20px;
+        }
+        li {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 6px;
+        }
+        .highlight {
+            background: #fffbe6;
+            padding: 1px 4px;
+            border-radius: 3px;
+        }
+        .footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 13px;
+            color: #aaa;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 8px 10px;
+            text-align: left;
+            color: #555;
+        }
+        th {
+            background: #f9f9f9;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>隐私政策</h1>
+    <p class="update-date">更新日期：2026年7月13日</p>
+
+    <p>「灭蚊模拟器」（以下简称"本应用"）非常重视您的隐私。本隐私政策旨在向您说明本应用如何收集、使用和保护相关信息。请您在使用本应用前，仔细阅读并充分理解本政策的全部内容。</p>
+    <p>当您点击"同意"按钮，即表示您已阅读并同意本隐私政策的全部条款。</p>
+
+    <h2>一、我们收集的信息</h2>
+    <p>本应用是一款<strong>纯本地运行</strong>的单机应用，<strong>不联网、不上传、不分享</strong>任何用户数据。具体而言：</p>
+    <ul>
+        <li><strong>不收集个人身份信息：</strong>本应用不需要注册、登录，不获取您的姓名、手机号、邮箱等任何身份信息。</li>
+        <li><strong>不上传任何数据：</strong>本应用不包含任何网络请求功能，所有应用数据仅保存在您的设备本地。</li>
+        <li><strong>不使用第三方 SDK：</strong>本应用不含广告、统计、推送等第三方组件，不会通过第三方收集您的信息。</li>
+    </ul>
+
+    <h2>二、设备权限使用说明</h2>
+    <p>为实现应用交互功能，本应用需申请以下设备权限。所有权限数据<strong>仅在应用运行时实时读取，用于触发即时反馈，不进行记录、存储或上传</strong>：</p>
+
+    <table>
+        <tr>
+            <th>权限</th>
+            <th>用途</th>
+            <th>数据去向</th>
+        </tr>
+        <tr>
+            <td>加速度计<br>（ACCELEROMETER）</td>
+            <td>检测手腕甩动动作，用于在战斗场景中触发拍蚊攻击</td>
+            <td>仅实时计算，不保存不上传</td>
+        </tr>
+        <tr>
+            <td>重力传感器<br>（GRAVITY）</td>
+            <td>检测手腕倾斜方向，用于在地图中移动人物位置</td>
+            <td>仅实时计算，不保存不上传</td>
+        </tr>
+        <tr>
+            <td>振动<br>（VIBRATE）</td>
+            <td>拍中蚊子时提供触觉振动反馈</td>
+            <td>仅触发硬件振动，无数据采集</td>
+        </tr>
+    </table>
+    <p>以上权限均为<span class="highlight">"仅在使用时允许"（inuse）</span>，即仅在本应用处于前台运行时生效，应用退出后自动停止。</p>
+
+    <h2>三、本地存储的信息</h2>
+    <p>以下应用数据通过系统偏好存储（Preferences）保存在您的设备本地，<strong>不会离开您的设备</strong>：</p>
+    <ul>
+        <li><strong>灭蚊积分：</strong>您击杀蚊子累计的灭蚊分数。</li>
+        <li><strong>武器解锁状态：</strong>已解锁的武器列表及当前选中的武器。</li>
+        <li><strong>引导展示标记：</strong>记录是否已展示过新手引导（避免重复弹出）。</li>
+        <li><strong>隐私同意标记：</strong>记录您是否已同意本隐私政策。</li>
+    </ul>
+    <p>上述数据均为应用运行所需的最小化状态信息，您可以随时通过卸载本应用来清除全部本地数据。</p>
+
+    <h2>四、信息安全</h2>
+    <p>由于本应用所有数据均在本地处理和存储，不涉及网络传输，因此不存在数据在网络传输中被截取的风险。您的应用数据仅存储在您的个人设备上，我们无法访问、也无法获取这些数据。</p>
+
+    <h2>五、儿童隐私</h2>
+    <p>本应用是一款适合所有年龄段的休闲应用，不针对特定年龄段儿童收集任何信息。由于本应用不收集任何个人信息，儿童使用本应用同样安全。</p>
+
+    <h2>六、政策更新</h2>
+    <p>如果本应用未来版本增加新的功能或权限，我们可能会更新本隐私政策。更新后的政策将在应用内展示，届时需要您再次确认同意。</p>
+
+    <h2>七、联系我们</h2>
+    <p>如果您对本隐私政策有任何疑问，可通过应用内二维码所示的联系方式与我们取得联系。</p>
+
+    <div class="footer">
+        <p>本应用包名：com.rhythmwrist.watch.mosquito &nbsp;|&nbsp; 版本：1.0.0</p>
+        <p>感谢您使用「捕蚊子」，祝您玩的愉快！</p>
+    </div>
+
+</div>
+</body>
+</html>
